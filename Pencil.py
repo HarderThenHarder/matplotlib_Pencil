@@ -5,6 +5,9 @@ class Pencil:
 
     @staticmethod
     def set_width_height(plt, width, height):
+        """
+        put this method to the end of the draw operations.
+        """
         plt.xlim(0, width)
         plt.ylim(0, height)
 
